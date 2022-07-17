@@ -1,5 +1,5 @@
 from gettext import install
-from setuptools import setup
+from setuptools import setup,find_packages
 from typing import List
 
 NAME = "ML_Project"
@@ -15,12 +15,12 @@ def get_requirements_list():
     i.e., all packages and returns it as a strig List
     '''
     with open(REQUIREMENTS_FILE_NAME) as rf:
-        return rf.readlines()
+        return rf.readlines().remove("-e .")
 setup(
     name=NAME,
     version=VERSION,
     author=AUTHOR,
     description=DESCRIPTION,
-    packages=PACKAGES,
+    packages=find_packages(),
     install_requires = get_requirements_list()
 )
