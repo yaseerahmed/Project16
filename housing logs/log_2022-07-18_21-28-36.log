@@ -1,0 +1,11 @@
+[2022-07-18 21:28:36,847] werkzeug - WARNING - * Debugger is active!
+[2022-07-18 21:28:36,855] werkzeug - INFO - * Debugger PIN: 398-321-399
+[2022-07-18 21:28:42,918] root - INFO -
+        Error occured in script: 
+        [ c:\Users\cc\Desktop\Self_Python_project\Project16\Project16\app.py ] at 
+        try block line number: [11] and exception block line number: [13] 
+        error message: [we are testing exception]
+        
+[2022-07-18 21:28:42,920] root - INFO -we are testing logs
+[2022-07-18 21:28:42,921] werkzeug - INFO -127.0.0.1 - - [18/Jul/2022 21:28:42] "GET / HTTP/1.1" 200 -
+[2022-07-18 21:28:43,033] werkzeug - INFO -127.0.0.1 - - [18/Jul/2022 21:28:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
