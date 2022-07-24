@@ -1,7 +1,7 @@
 from gettext import install
 from setuptools import setup,find_packages
 from typing import List
-from housing.logger import logging
+
 NAME = "ML_Project"
 VERSION = "0.0.1"
 AUTHOR = "Yaseer"
