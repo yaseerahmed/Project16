@@ -13,7 +13,7 @@ def Hello():
         housing = HousingException(e,sys)
         logging.info(housing.error_message)
     logging.info("we are testing logs")
-    return "Hello World"
+    return "Hello, we are testing it again"
 
 if __name__=='__main__':
     app.run(debug=True)
